@@ -7,3 +7,11 @@ Screenshot:
 
 ![image](https://github.com/cnkailyn/tree_size/assets/34443073/d5e65f34-732c-41c7-b1e2-8304bfe84377)
 
+
+## Install
+download it: https://github.com/cnkailyn/tree_size/releases/tag/v0.1
+
+## Usage
+```
+tree-file -h
+```
