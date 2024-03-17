@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"bufio"
+	"os"
 	"time"
 )
 
@@ -189,6 +191,9 @@ func main() {
 
 	stats := map[string]int{"folders": 0, "files": 0}
 	printTree(startPath, "", depth, fileInclude, fileExclude, minSize, maxSize, 0, stats, onlyPath)
+
+	fmt.Println("Press Enter to quit...")
+	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
 
 type stringSlice []string
