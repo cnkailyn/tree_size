@@ -13,5 +13,7 @@ download it: https://github.com/cnkailyn/tree_size/releases/tag/v0.1
 
 ## Usage
 ```
-tree-file -h
+tree-file-win-x64.exe -h
+or
+tree-file-win-x86.exe -h
 ```
